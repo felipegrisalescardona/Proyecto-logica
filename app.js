@@ -1,6 +1,6 @@
 // La premisa del desafio: El sistema generará un número
 // del 1 al 10 y tendremos x intentos para adivinarlo
-let numeroSecreto = 20;
+let numeroSecreto = Math.floor(Math.random() * 10 * (Math.random() * 10) + 1);
 let numeroIntentos = 5;
 let contadorIntentos = 0;
 let numeroUsuario;
@@ -26,5 +26,5 @@ while (contadorIntentos < numeroIntentos) {
   contadorIntentos++;
 }
 if (numeroIntentos == contadorIntentos) {
-  alert("Has perdido! :(");
+  alert(`Has perdido! :(, el número era ${numeroSecreto}`);
 }
