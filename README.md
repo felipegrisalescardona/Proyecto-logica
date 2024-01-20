@@ -1,0 +1,2 @@
+# Desafío de adivinar el número
+Para este desafío buscamos que el sistema genere un número, y nos de varios intentos para buscar adivinar el número generado, si el número generado es mayor al número ingresado, nos sugerira que ingresemos un número mayor, si es menor, nos hará la respectiva sugerencia. Tendremos und eterminado número de intentos hasta que, si alcanzamos los intentos máximos y aún no hemos logrado coincidir con el número generado por el sistema, el juego terminará y habrás perdido.
